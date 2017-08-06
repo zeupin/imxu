@@ -1,0 +1,28 @@
+@mixin ycbm($ycbm_icon_width: 5rem, $align: left) {
+  .ycbm-icon,
+  .ycbm-h1,
+  .ycbm-h2,
+  .ycbm-text {
+    display: block;
+    margin: 0;
+    text-align: #{$align};
+  }
+
+  .ycbm-icon {
+    float: #{$align};
+    width: $ycbm_icon_width * 0.95;
+    height: auto;
+  }
+
+  .ycbm-h1 {
+    margin-#{$align}: $ycbm_icon_width;
+  }
+
+  .ycbm-h2 {
+    margin-#{$align}: $ycbm_icon_width;
+  }
+
+  .ycbm-text {
+    margin-#{$align}: $ycbm_icon_width;
+  }
+}
