@@ -4,7 +4,8 @@
 
 ## CSS Class
 
-* `.ycbm`  列表组，一般是用ul.ycbm
+* `.ycbm`  列表组。一般是用ul.ycbm
+* `.ycbm.right`  右对齐模式的列表组，参见示例二。
 * `.ycbm-item`  列表项
 * `.ycbm-icon` 列表项的ICON
 * `.ycbm-h1`  列表项的大标题
